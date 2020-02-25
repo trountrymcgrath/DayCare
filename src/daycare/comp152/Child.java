@@ -9,7 +9,6 @@ public class Child {
     private int dayCareID;
     private String Name;
     private static int nextID =1000;
-    private ArrayList<DayCareWorker> group;
 
     public Child(){
         dayCareID = nextID;
