@@ -6,12 +6,12 @@ public class Child {
     private int age;
     private boolean siblingInProgram;
     private int yearsOfAttendence;
-    private int dayCareID;
+    private int daycareID;
     private String Name;
     private static int nextID =1000;
 
     public Child(){
-        dayCareID = nextID;
+        daycareID = nextID;
         nextID++;
     }
 
@@ -20,7 +20,7 @@ public class Child {
         siblingInProgram = siblingPlan;
         age = currentAge;
         yearsOfAttendence = 0;
-        dayCareID = nextID;
+        daycareID = nextID;
         nextID = nextID+1;
 
     }

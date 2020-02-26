@@ -7,10 +7,34 @@ public class DayCareWorker {
     private String Name;
     private ArrayList<Child> group;
 
-    public DayCareWorker(float startingPay, String Name){
+    public DayCareWorker(float startingPay, String Name) {
 
     }
-    public performanceReview(float startingPay, int salary);
+
+    public removeChild(Child daycareID){
+
+
+    }
+
+    public performanceReview(float startingPay, float salary){
+
+
+    }
+
+    public performFireDrill(){
+
+
+    }
+
+    public boolean addChild(Child newKid){
+
+
+    }
+
+    public float getSalary() {
+
+
+    }
 
     public String getName() {
         return Name;
